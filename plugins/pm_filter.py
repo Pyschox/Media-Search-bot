@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('More Movies', url='https://t.me/requestcontent'),
+                        InlineKeyboardButton('Devoloper 💻', url='https://t.me/PsychoxDevil')
                     ]
                     ]
                 
@@ -346,4 +346,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("Who Are You Tapping This 😒",show_alert=True)
